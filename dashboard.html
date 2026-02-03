@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen">
+
+  <!-- Header -->
+  <header class="bg-white shadow p-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">🎉 Event Manager</h1>
+
+    <button
+      id="logoutBtn"
+      class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
+    >
+      Cerrar sesión
+    </button>
+  </header>
+
+  <!-- Content -->
+  <main class="p-6 max-w-4xl mx-auto">
+
+    <!-- Admin -->
+    <div id="admin" class="mb-8"></div>
+
+    <!-- Events -->
+    <h2 class="text-xl font-semibold mb-4">Eventos disponibles</h2>
+    <ul id="eventList" class="space-y-4"></ul>
+
+  </main>
+
+  <!-- Scripts -->
+  <script src="js/guard.js" defer></script>
+  <script src="js/auth.js" defer></script>
+  <script src="js/events.js" defer></script>
+
+</body>
+</html>
