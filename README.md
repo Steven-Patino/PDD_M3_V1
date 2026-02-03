@@ -131,37 +131,6 @@ Open `login.html` in your browser.
 
 ---
 
-## ⚠️ Limitations
-
-* No real backend authentication
-* No password hashing
-* No concurrency protection
-* Data can be manipulated via DevTools
-
-This project is intended for **learning and prototyping**, not production use.
-
----
-
-## 🧠 Learning Goals
-
-* Understand frontend authentication flows
-* Practice DOM manipulation
-* Learn CRUD operations with Fetch API
-* Implement role-based UI rendering
-* Avoid global scope conflicts
-
----
-
-## 🔮 Possible Improvements
-
-* Use ES Modules (`import / export`)
-* Add edit event functionality
-* Add loading states and better UX
-* Use JWT and a real backend
-* Migrate to a framework (React, Vue, etc.)
-
----
-
 ## 📄 License
 
 This project is open for educational use.
